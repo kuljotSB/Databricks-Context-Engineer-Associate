@@ -101,7 +101,7 @@ CREATE TABLE RAG.ESG_Chunks (
 
     ChunkText TEXT,
 
-    ChunkEmbedding VECTOR(1536),
+    ChunkEmbedding VECTOR(1024),
 
     CONSTRAINT FK_ESG_Chunks_Record
         FOREIGN KEY (RecordID)
